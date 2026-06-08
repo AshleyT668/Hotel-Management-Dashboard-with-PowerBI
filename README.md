@@ -1,4 +1,4 @@
-# Hotel Management Business Intelligence Dashboard
+# Hotel Management Business Intelligence Dashboard | PowerBI
 
 A Business Intelligence project developed using Microsoft Power BI to analyze hotel performance, occupancy trends, revenue metrics, and booking patterns. This project demonstrates the complete BI workflow from data preparation and modeling to DAX calculations and dashboard visualization.
 
