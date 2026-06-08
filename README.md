@@ -117,16 +117,6 @@ Add screenshots of your dashboard here.
 
 A detailed report describing the project workflow and methodology is included in this repository.
 
-## Live Dashboard
-
-Power BI Dashboard:
-(Add Power BI Service link here if published)
-
-## Project Link
-
-Google Drive Project File:
-https://drive.google.com/file/d/1wBXanLPodX6ymox7g9ipvIqeFpAUYe7T/view?usp=drive_link
-
 ### Areas of Interest
 
 - Data Analytics
