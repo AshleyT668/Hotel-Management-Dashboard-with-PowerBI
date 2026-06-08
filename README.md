@@ -112,15 +112,6 @@ Add screenshots of your dashboard here.
 ### Main Dashboard
 ![Dashboard Screenshot](dashboard-preview-1.png)
 
-
 ## Project Report
 
 A detailed report describing the project workflow and methodology is included in this repository.
-
-### Areas of Interest
-
-- Data Analytics
-- Business Intelligence
-- Machine Learning
-- Artificial Intelligence
-- Data Engineering
