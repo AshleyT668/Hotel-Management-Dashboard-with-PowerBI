@@ -110,7 +110,7 @@ The dashboard was designed with a focus on usability, clarity, and business rele
 Add screenshots of your dashboard here.
 
 ### Main Dashboard
-![Dashboard Screenshot](images/dashboard-preview.png)
+![Dashboard Screenshot](dashboard-preview.png)
 
 
 ## Project Report
