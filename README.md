@@ -1,121 +1,136 @@
 # Hotel Management Business Intelligence Dashboard
 
-## Overview
+A Business Intelligence project developed using Microsoft Power BI to analyze hotel performance, occupancy trends, revenue metrics, and booking patterns. This project demonstrates the complete BI workflow from data preparation and modeling to DAX calculations and dashboard visualization.
 
-This project is an end-to-end Business Intelligence solution developed using Power BI to analyze hotel performance and support data-driven decision-making in the hospitality industry.
+## Project Overview
 
-The project focuses on transforming raw hotel management data into meaningful insights through data modeling, DAX calculations, interactive visualizations, and dashboard reporting.
+This project was completed as part of the Data and Artificial Intelligence track in the Cyber Shujaa Program. The objective was to simulate a real-world Business Intelligence project within the hotel management domain and develop a dashboard that supports data-driven decision-making.
+
+The project follows an end-to-end data analyst workflow, including business understanding, data transformation, data modeling, DAX calculations, and dashboard development.
 
 ## Business Problem
 
-Hotel managers require timely insights into occupancy trends, revenue performance, booking patterns, and operational efficiency to make informed decisions.
+Hotel managers require accurate and timely insights into operational performance to improve decision-making. Key areas of interest include:
 
-This dashboard provides a centralized view of key hotel metrics, enabling stakeholders to monitor performance, identify trends, and improve business outcomes.
+- Occupancy rates
+- Revenue performance
+- Booking trends
+- Room category performance
+- Average Daily Rate (ADR)
+- Revenue per Available Room (RevPAR)
+
+This dashboard provides a centralized view of these metrics to support strategic and operational planning.
 
 ## Objectives
 
-- Understand hotel business operations and reporting requirements.
-- Load and transform hotel datasets.
-- Design a star schema data model.
-- Create DAX measures and calculated columns.
-- Build interactive dashboards for business analysis.
-- Publish insights through Power BI Service.
-- Showcase the project as part of a data analytics portfolio.
+- Understand hotel business requirements and key performance indicators.
+- Load and transform multiple datasets in Power BI.
+- Build a star-schema data model.
+- Create calculated columns and measures using DAX.
+- Develop an interactive dashboard for business users.
+- Present actionable insights through data visualization.
 
-## Tools & Technologies
+## Tools and Technologies
 
-- Power BI Desktop
+- Microsoft Power BI
 - Power Query
 - DAX (Data Analysis Expressions)
 - Data Modeling
-- Power BI Service
+- Business Intelligence
 
-## Dataset
+## Project Workflow
 
-The project uses hotel management datasets consisting of fact and dimension tables, including:
+### Business Understanding
 
-- Fact Bookings
-- Fact Aggregated Bookings
+The project began by identifying key hotel performance metrics that are commonly used by management teams, including occupancy percentage, revenue, ADR, RevPAR, booking trends, and room performance.
+
+### Data Loading and Transformation
+
+Several datasets were imported into Power BI, including booking records and supporting dimension tables such as:
+
 - Dim Date
 - Dim Rooms
-- Dim Hotels
+- Additional supporting tables
 
-## Data Preparation
+Data transformation activities included:
 
-The following data preparation tasks were completed:
+- Removing duplicate records
+- Handling missing values
+- Correcting data types
+- Renaming columns
+- Creating derived fields
+- Preparing data for analysis
 
-- Imported datasets into Power BI.
-- Cleaned and transformed data using Power Query.
-- Handled missing and inconsistent values.
-- Standardized data formats.
-- Created relationships between fact and dimension tables.
+### Data Modeling
 
-## Data Modeling
+A star schema architecture was implemented to optimize analytical performance.
 
-A Star Schema data model was implemented to improve analytical performance and maintainability.
+The central fact table containing booking and revenue information was linked to dimension tables through one-to-many relationships, enabling accurate filtering and aggregation throughout the dashboard.
 
-### Tables
-
-#### Fact Tables
-- Fact Bookings
-- Fact Aggregated Bookings
-
-#### Dimension Tables
-- Dim Date
-- Dim Rooms
-- Dim Hotels
-
-### Relationships
-Relationships were established between fact and dimension tables to enable efficient filtering and reporting.
-
-## DAX Measures
+### DAX Measures
 
 Several DAX measures were created to support business analysis, including:
 
-- Total Revenue
 - Total Bookings
-- Occupancy Rate
+- Occupancy %
 - Average Daily Rate (ADR)
 - Revenue per Available Room (RevPAR)
-- Booking Trends
-- Cancellation Rate
+- Revenue Metrics
+- Booking Performance Indicators
 
-## Dashboard Features
+The measures were designed using clear naming conventions to improve readability and maintainability.
 
-The dashboard provides interactive visualizations including:
+### Dashboard Development
 
+An interactive Power BI dashboard was developed featuring:
+
+- KPI Cards
 - Revenue Analysis
-- Booking Trends
-- Occupancy Performance
-- Hotel Comparison
-- Room Category Analysis
-- Key Performance Indicators (KPIs)
-- Date-Based Filtering
+- Occupancy Tracking
+- Booking Trend Analysis
+- Room Performance Insights
+- Interactive Filters and Slicers
+- Date-Based Analysis
 
-## Key Insights
+The dashboard was designed with a focus on usability, clarity, and business relevance.
 
-The dashboard enables stakeholders to:
+## Key Skills Demonstrated
 
-- Monitor hotel revenue performance.
-- Analyze occupancy trends over time.
-- Compare hotel performance across locations.
-- Identify high-performing room categories.
-- Track booking and cancellation patterns.
-- Support strategic business decisions.
+- Business Intelligence
+- Data Cleaning and Transformation
+- Data Modeling
+- Star Schema Design
+- DAX Development
+- Data Visualization
+- Dashboard Design
+- Analytical Thinking
 
 ## Dashboard Preview
 
-### Executive Dashboard
-![Dashboard Screenshot](dashboard-preview.png)
+Add screenshots of your dashboard here.
 
-## Results
+### Main Dashboard
+![Dashboard Screenshot](images/dashboard-preview.png)
 
-This project demonstrates the complete Business Intelligence workflow:
 
-- Data Loading
-- Data Cleaning
-- Data Transformation
-- Data Modeling
-- DAX Development
-- Dashboard Design
-- Business Insight Generation
+## Project Report
+
+A detailed report describing the project workflow and methodology is included in this repository.
+
+## Live Dashboard
+
+Power BI Dashboard:
+(Add Power BI Service link here if published)
+
+## Project Link
+
+Google Drive Project File:
+https://drive.google.com/file/d/1wBXanLPodX6ymox7g9ipvIqeFpAUYe7T/view?usp=drive_link
+
+### Areas of Interest
+
+- Data Analytics
+- Business Intelligence
+- Machine Learning
+- Artificial Intelligence
+- Data Engineering
